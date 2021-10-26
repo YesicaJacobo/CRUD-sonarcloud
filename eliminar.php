@@ -4,8 +4,6 @@ validar();
 
 $id=$_POST['column1'];
 
-//$query=;
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
