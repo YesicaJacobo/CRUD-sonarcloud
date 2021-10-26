@@ -55,8 +55,6 @@ if ($result->num_rows > 0) {
     echo "<input type ='hidden' name = 'column1' value = '".$row["column1"]."'>";
     echo "<input type ='submit' value ='' style =\"background:url('./img/update.png'); border: 0; display: block; width: 24px; heigth: 24px;\" onclick='return confirmarModificar()'></form></td> \n";
     
-    
-    //echo "<a href='update.php?colum1=".$row["column1"]."' onclick='return confirmarModificar()'><img src='./img/update.png'></td></tr>\n";
   }
   echo "</table></center>";
 } else {
